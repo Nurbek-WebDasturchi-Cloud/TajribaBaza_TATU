@@ -1,0 +1,1645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmetics - NIVEA </title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="assets/css/stylesheet.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--- preload images-->
+    
+    <link rel="preload" as="image" href="./assets/images/Tamberry Glow.png" />
+    <link rel="preload" as="image" href="./assets/images/Essentials-Desktop-Hero-.jpg" />
+    <link rel="preload" as="image" href="./assets/images/Hero_Nivea_Body_Milk Essentials_.jpg" />
+    <link rel="preload" as="image" href="./assets/images/Essentials-Desktop-Hero1.jpg" />
+  </head>
+
+  <body id="top">
+
+    <!-- - #HEADER-->
+
+    <header class="header">
+      <div class="alert">
+        <div class="container">
+          <p class="alert-text">Arzon Narxlarda chegirma 50+</p>
+        </div>
+      </div>
+
+      <div class="header-top" data-header>
+        <div class="container">
+          <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+          </button>
+
+          <div class="input-wrapper">
+            <input
+              type="search"
+              name="search"
+              placeholder="Search product"
+              class="search-field"
+            />
+
+            <button class="search-submit" aria-label="search">
+              <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/Tamberry Glow.png"
+              width="179"
+              height="26"
+              alt="Glowing"
+            />
+          </a>
+
+          <div class="header-actions">
+            <button class="header-action-btn" aria-label="user">
+              <ion-icon
+                name="person-outline"
+                aria-hidden="true"
+                aria-hidden="true"
+              ></ion-icon>
+            </button>
+
+            <button class="header-action-btn" aria-label="favourite item">
+              <ion-icon
+                name="star-outline"
+                aria-hidden="true"
+                aria-hidden="true"
+              ></ion-icon>
+
+              <span class="btn-badge">0</span>
+            </button>
+
+            <button class="header-action-btn" aria-label="cart item">
+              <data class="btn-text" value="0">$0.00</data>
+
+              <ion-icon
+                name="bag-handle-outline"
+                aria-hidden="true"
+                aria-hidden="true"
+              ></ion-icon>
+
+              <span class="btn-badge">0</span>
+            </button>
+          </div>
+
+          <nav class="navbar">
+            <ul class="navbar-list">
+              <li>
+                <a href="#home" class="navbar-link has-after">Bosh sahifa</a>
+              </li>
+
+              <li>
+                <a href="#collection" class="navbar-link has-after"
+                  >To'plam</a
+                >
+              </li>
+
+              <li>
+                <a href="#shop" class="navbar-link has-after">Do'kon</a>
+              </li>
+
+              <li>
+                <a href="#offer" class="navbar-link has-after">Taklif</a>
+              </li>
+
+              <li>
+                <a href="#blog" class="navbar-link has-after">Blog</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- 
+    - #MOBILE NAVBAR
+  -->
+
+    <div class="sidebar">
+      <div class="mobile-navbar" data-navbar>
+        <div class="wrapper">
+
+          <button
+            class="nav-close-btn"
+            aria-label="close menu"
+            data-nav-toggler
+          >
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Bosh sahifa</a>
+          </li>
+
+          <li>
+            <a href="#collection" class="navbar-link" data-nav-link
+              >To'plam</a
+            >
+          </li>
+
+          <li>
+            <a href="#shop" class="navbar-link" data-nav-link>Do'kon</a>
+          </li>
+
+          <li>
+            <a href="#offer" class="navbar-link" data-nav-link>Taklif</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="section hero" id="home" aria-label="hero" data-section>
+          <div class="container">
+            <ul class="has-scrollbar">
+              <li class="scrollbar-item">
+                <div
+                  class="hero-card has-bg-image"
+                  style="
+                    background-image: url('./assets/images/Essentials-Desktop-Hero1.jpg');
+                  "
+                >
+                  <div class="card-content">
+                    <h1 class="h1 hero-title">
+                      Oshkor Qilish <br />
+                      Terining go'zalligi
+                    </h1>
+
+                    <p class="hero-text">
+                      Toza, toksik bo'lmagan ingredientlardan foydalangan holda ishlab chiqarilgan mahsulotlarimiz
+                      hamma uchun mo'ljallangan.
+                    </p>
+
+                    <p class="price">70.000 so'mdan boshlanadi</p>
+
+                    <a href="#" class="btn btn-primary">Hozir Xarid Qiling</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="hero-card has-bg-image"
+                  style="
+                    background-image: url('./assets/images/Hero_Nivea_Body_Milk\ Essentials_.jpg');
+                  "
+                >
+                  <div class="card-content">
+                    <h1 class="h1 hero-title">
+                      Oshkor Qilish <br />
+                      Terining go'zalligi
+                    </h1>
+
+                    <p class="hero-text">
+                      Toza, toksik bo'lmagan ingredientlardan foydalangan holda ishlab chiqarilgan mahsulotlarimiz
+                      hamma uchun mo'ljallangan.
+                    </p>
+
+                    <p class="price">80.000 so'mdan boshlanadi</p>
+
+                    <a href="#" class="btn btn-primary">Hozir Xarid Qiling</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div
+                  class="hero-card has-bg-image"
+                  style="
+                    background-image: url('./assets/images/Essentials-Desktop-Hero-.jpg');
+                  "
+                >
+                  <div class="card-content">
+                    <h1 class="h1 hero-title">
+                      Oshkor Qilish<br />
+                      Terining go'zalligi
+                    </h1>
+
+                    <p class="hero-text">
+                      Toza, toksik bo'lmagan ingredientlardan foydalangan holda ishlab chiqarilgan mahsulotlarimiz
+                      hamma uchun mo'ljallangan.
+                    </p>
+
+                    <p class="price">Starting at $7.99</p>
+
+                    <a href="#" class="btn btn-primary">Shop Now</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #COLLECTION
+      -->
+
+        <section
+          class="section collection"
+          id="collection"
+          aria-label="collection"
+          data-section
+        >
+          <div class="container">
+            <ul class="collection-list">
+              <li>
+                <div class="collection-card has-before hover:shine">
+                  <h2 class="h2 card-title">Yozgi Kolleksiya</h2>
+
+                  <p class="card-text">150.000 so'mdan boshlanadi</p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Hozir Xarid Qiling</span>
+
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+
+                  <div
+                    class="has-bg-image"
+                    style="
+                      background-image: url('./assets/images/Lotion-in-hand.png');
+                    "
+                  ></div>
+                </div>
+              </li>
+
+              <li>
+                <div class="collection-card has-before hover:shine">
+                  <h2 class="h2 card-title">Nima yangiliklar?</h2>
+
+                  <p class="card-text">Yorqinlikni oling</p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Hozir Kashf Eting</span>
+
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+
+                  <div
+                    class="has-bg-image"
+                    style="
+                      background-image: url('./assets/images/Face-Cream.png');
+                    "
+                  ></div>
+                </div>
+              </li>
+
+              <li>
+                <div class="collection-card has-before hover:shine">
+                  <h2 class="h2 card-title">1 Sotib Oling 1 Oling</h2>
+
+                  <p class="card-text">80.000 so'mdan boshlanadi</p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Hozir Kashf Eting</span>
+
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+
+                  <div
+                    class="has-bg-image"
+                    style="
+                      background-image: url('./assets/images/Face-Cream\(2\).png');
+                    "
+                  ></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #SHOP
+      -->
+
+        <section class="section shop" id="shop" aria-label="shop" data-section>
+          <div class="container">
+            <div class="title-wrapper">
+              <h2 class="h2 section-title">Bizning Bestsellerlarimiz</h2>
+
+              <a href="#" class="btn-link">
+                <span class="span">Barcha Mahsulotlarni Xarid Qiling</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+
+            <ul class="has-scrollbar">
+              <li class="scrollbar-item">
+                <div class="shop-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 540; --height: 720"
+                  >
+                    <img
+                      src="./assets/images/Nivea-body-lotion.png"
+                      width="540"
+                      height="720"
+                      loading="lazy"
+                      alt="Body Lotion"
+                      class="img-cover"
+                    />
+
+                    <span class="badge" aria-label="20% off">-20%</span>
+
+                    <div class="card-actions">
+                      <button class="action-btn" aria-label="add to cart">
+                        <ion-icon
+                          name="bag-handle-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="add to whishlist">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="compare">
+                        <ion-icon
+                          name="repeat-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="price">
+                      <del class="del">150.000 so'm</del>
+
+                      <span class="span">120.000 so'm</span>
+                    </div>
+
+                    <h3>
+                      <a href="#" class="card-title">BOY OZIQLANTIRUVCHI TANA LOSONI 250ML</a>
+                    </h3>
+
+                    <div class="card-rating">
+                      <div class="rating-wrapper" aria-label="5 start rating">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <p class="rating-text">5170 sharhlar</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="shop-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 540; --height: 720"
+                  >
+                    <img
+                      src="./assets/images/Deodorant.png"
+                      width="540"
+                      height="720"
+                      loading="lazy"
+                      alt="NIVEA MEN INTENSE PROTECTION STRENGTH ROLL-ON"
+                      class="img-cover"
+                    />
+
+                    <div class="card-actions">
+                      <button class="action-btn" aria-label="add to cart">
+                        <ion-icon
+                          name="bag-handle-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="add to whishlist">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="compare">
+                        <ion-icon
+                          name="repeat-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="price">
+                      <span class="span">130.000 so'm</span>
+                    </div>
+
+                    <h3>
+                      <a href="#" class="card-title"
+                        >NIVEA ERKAKLAR KUCHLI HIMOYA KUCHI ROLL-ON</a
+                      >
+                    </h3>
+
+                    <div class="card-rating">
+                      <div class="rating-wrapper" aria-label="5 start rating">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <p class="rating-text">5170 sharhlar</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="shop-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 540; --height: 720"
+                  >
+                    <img
+                      src="./assets/images/Coconut-lotion.png"
+                      width="540"
+                      height="720"
+                      loading="lazy"
+                      alt="OIL INFUSED LOTION COCONUT & MONOI OIL"
+                      class="img-cover"
+                    />
+
+                    <div class="card-actions">
+                      <button class="action-btn" aria-label="add to cart">
+                        <ion-icon
+                          name="bag-handle-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="add to whishlist">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="compare">
+                        <ion-icon
+                          name="repeat-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="price">
+                      <span class="span">140.000 so'm</span>
+                    </div>
+
+                    <h3>
+                      <a href="#" class="card-title"
+                        >YOG' QUYILGAN LOSON KOKOS YONG'OG'I VA MONOI YOG'I</a
+                      >
+                    </h3>
+
+                    <div class="card-rating">
+                      <div class="rating-wrapper" aria-label="5 start rating">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <p class="rating-text">5170 sharhlar</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="shop-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 540; --height: 720"
+                  >
+                    <img
+                      src="./assets/images/Shaving.png"
+                      width="540"
+                      height="720"
+                      loading="lazy"
+                      alt="Shaving"
+                      class="img-cover"
+                    />
+
+                    <div class="card-actions">
+                      <button class="action-btn" aria-label="add to cart">
+                        <ion-icon
+                          name="bag-handle-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="add to whishlist">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="compare">
+                        <ion-icon
+                          name="repeat-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="price">
+                      <span class="span">150.000 so'm</span>
+                    </div>
+
+                    <h3>
+                      <a href="#" class="card-title">NIVEA ERKAKLAR SEZGIR SOQOL KO'PIK</a>
+                    </h3>
+
+                    <div class="card-rating">
+                      <div class="rating-wrapper" aria-label="5 start rating">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <p class="rating-text">5170 sharhlar</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="shop-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 540; --height: 720"
+                  >
+                    <img
+                      src="./assets/images/face-cleansing.png"
+                      width="540"
+                      height="720"
+                      loading="lazy"
+                      alt="face-cleansing"
+                      class="img-cover"
+                    />
+
+                    <span class="badge" aria-label="20% off">-20%</span>
+
+                    <div class="card-actions">
+                      <button class="action-btn" aria-label="add to cart">
+                        <ion-icon
+                          name="bag-handle-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="add to whishlist">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="compare">
+                        <ion-icon
+                          name="repeat-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="price">
+                      <del class="del">200.000 so'm</del>
+
+                      <span class="span">170.000 so'm</span>
+                    </div>
+
+                    <h3>
+                      <a href="#" class="card-title"
+                        >DOUBLE TA'SIRI KO'Z MAKE-UP REMOVER</a
+                      >
+                    </h3>
+
+                    <div class="card-rating">
+                      <div class="rating-wrapper" aria-label="5 start rating">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <p class="rating-text">5170 sharhlar</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="shop-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 540; --height: 720"
+                  >
+                    <img
+                      src="./assets/images/deodorant-anti.png"
+                      width="540"
+                      height="720"
+                      loading="lazy"
+                      alt="Deodorant"
+                      class="img-cover"
+                    />
+
+                    <div class="card-actions">
+                      <button class="action-btn" aria-label="add to cart">
+                        <ion-icon
+                          name="bag-handle-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="add to whishlist">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="compare">
+                        <ion-icon
+                          name="repeat-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="price">
+                      <span class="span">165.000 so'm</span>
+                    </div>
+
+                    <h3>
+                      <a href="#" class="card-title">NIVEA MEN CHUQUR TERGA QARSHI AEROZOLLI DEZODORANT</a>
+                    </h3>
+
+                    <div class="card-rating">
+                      <div class="rating-wrapper" aria-label="5 start rating">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <p class="rating-text">5170 sharhlar</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section shop" id="shop" aria-label="shop" data-section>
+          <div class="container">
+            <div class="title-wrapper">
+              <h2 class="h2 section-title">300.000 so'm ostida</h2>
+
+              <a href="#" class="btn-link">
+                <span class="span">Barcha Mahsulotlarni Xarid Qiling</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+
+            <ul class="has-scrollbar">
+              <li class="scrollbar-item">
+                <div class="shop-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 540; --height: 720"
+                  >
+                    <img
+                      src="./assets/images/Face(Men).png"
+                      width="540"
+                      height="720"
+                      loading="lazy"
+                      alt="Face(Men)"
+                      class="img-cover"
+                    />
+
+                    <span class="badge" aria-label="20% off">-20%</span>
+
+                    <div class="card-actions">
+                      <button class="action-btn" aria-label="add to cart">
+                        <ion-icon
+                          name="bag-handle-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="add to whishlist">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="compare">
+                        <ion-icon
+                          name="repeat-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="price">
+                      <del class="del">230.000 so'm</del>
+
+                      <span class="span">200.000 so'm</span>
+                    </div>
+
+                    <h3>
+                      <a href="#" class="card-title">NIVEA ERKAKLAR SEZGIR HIMOYA NEMLENDIRICI SPF15</a>
+                    </h3>
+
+                    <div class="card-rating">
+                      <div class="rating-wrapper" aria-label="5 start rating">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <p class="rating-text">5170 sharhlar</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="shop-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 540; --height: 720"
+                  >
+                    <img
+                      src="./assets/images/Deodorant-roll-on.png"
+                      width="540"
+                      height="720"
+                      loading="lazy"
+                      alt="Deodorant-roll-on"
+                      class="img-cover"
+                    />
+
+                    <div class="card-actions">
+                      <button class="action-btn" aria-label="add to cart">
+                        <ion-icon
+                          name="bag-handle-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="add to whishlist">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="compare">
+                        <ion-icon
+                          name="repeat-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="price">
+                      <span class="span">220.000 so'm</span>
+                    </div>
+
+                    <h3>
+                      <a href="#" class="card-title"
+                        >NIVEA MEN DEEP AMAZONIA TERGA QARSHI RULONLI DEZODORANT</a
+                      >
+                    </h3>
+
+                    <div class="card-rating">
+                      <div class="rating-wrapper" aria-label="5 start rating">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <p class="rating-text">5170 sharhlar</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="shop-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 540; --height: 720"
+                  >
+                    <img
+                      src="./assets/images/Shaving(1).png"
+                      width="540"
+                      height="720"
+                      loading="lazy"
+                      alt="Shaving"
+                      class="img-cover"
+                    />
+
+                    <div class="card-actions">
+                      <button class="action-btn" aria-label="add to cart">
+                        <ion-icon
+                          name="bag-handle-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="add to whishlist">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="compare">
+                        <ion-icon
+                          name="repeat-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="price">
+                      <span class="span">210.000 so'm</span>
+                    </div>
+
+                    <h3>
+                      <a href="#" class="card-title"
+                        >NIVEA MEN SEZGIR SOQOL KREMI</a
+                      >
+                    </h3>
+
+                    <div class="card-rating">
+                      <div class="rating-wrapper" aria-label="5 start rating">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <p class="rating-text">5170 sharhlar</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="shop-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 540; --height: 720"
+                  >
+                    <img
+                      src="./assets/images/Shower Gel.png"
+                      width="540"
+                      height="720"
+                      loading="lazy"
+                      alt="Shower Gel"
+                      class="img-cover"
+                    />
+
+                    <div class="card-actions">
+                      <button class="action-btn" aria-label="add to cart">
+                        <ion-icon
+                          name="bag-handle-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="add to whishlist">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="compare">
+                        <ion-icon
+                          name="repeat-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="price">
+                      <span class="span">125.000 so'm</span>
+                    </div>
+
+                    <h3>
+                      <a href="#" class="card-title">BOY KO'PIK TABIIY ALOE YANGI NAMLIK TANANI YUVISH</a>
+                    </h3>
+
+                    <div class="card-rating">
+                      <div class="rating-wrapper" aria-label="5 start rating">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <p class="rating-text">5170 sharhlar</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="shop-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 540; --height: 720"
+                  >
+                    <img
+                      src="./assets/images/Face-Cream(1).png"
+                      width="540"
+                      height="720"
+                      loading="lazy"
+                      alt="Face Cream"
+                      class="img-cover"
+                    />
+
+                    <span class="badge" aria-label="20% off">-20%</span>
+
+                    <div class="card-actions">
+                      <button class="action-btn" aria-label="add to cart">
+                        <ion-icon
+                          name="bag-handle-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="add to whishlist">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="compare">
+                        <ion-icon
+                          name="repeat-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="price">
+                      <del class="del">300.000</del>
+
+                      <span class="span">280.000 so'm</span>
+                    </div>
+
+                    <h3>
+                      <a href="#" class="card-title"
+                        >UYALI PLOMBA MUTAXASSISI GIALURON SARUMINI KO'PAYTIRISH</a
+                      >
+                    </h3>
+
+                    <div class="card-rating">
+                      <div class="rating-wrapper" aria-label="5 start rating">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <p class="rating-text">5170 sharhlar</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="shop-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 540; --height: 720"
+                  >
+                    <img
+                      src="./assets/images/Lip Care.png"
+                      width="540"
+                      height="720"
+                      loading="lazy"
+                      alt="Lip Care"
+                      class="img-cover"
+                    />
+
+                    <div class="card-actions">
+                      <button class="action-btn" aria-label="add to cart">
+                        <ion-icon
+                          name="bag-handle-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="add to whishlist">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+
+                      <button class="action-btn" aria-label="compare">
+                        <ion-icon
+                          name="repeat-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="price">
+                      <span class="span">250.000 so'm</span>
+                    </div>
+
+                    <h3>
+                      <a href="#" class="card-title">HYALURON LIP NAMLIK PLUS</a>
+                    </h3>
+
+                    <div class="card-rating">
+                      <div class="rating-wrapper" aria-label="5 start rating">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <p class="rating-text">5170 sharhlar</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #BANNER
+      -->
+
+        <section class="section banner" aria-label="banner" data-section>
+          <div class="container">
+            <ul class="banner-list">
+              <li>
+                <div class="banner-card banner-card-1 has-before hover:shine">
+                  <p class="card-subtitle">Yangi To'plam</p>
+
+                  <h2 class="h2 card-title">Bizning Kuzgi Terini Parvarish Qilishni Kashf Eting</h2>
+
+                  <a href="#" class="btn btn-secondary">Ko'proq O'rganing</a>
+
+                  <div
+                    class="has-bg-image"
+                    style="
+                      background-image: url('./assets/images/banner-\(1\).png');
+                    "
+                  ></div>
+                </div>
+              </li>
+
+              <li>
+                <div class="banner-card banner-card-2 has-before hover:shine">
+                  <h2 class="h2 card-title">25% hamma narsa</h2>
+
+                  <p class="card-text">
+                    Har bir inson uchun ranglarning kengaytirilgan diapazoni bilan bo'yanish.
+                  </p>
+
+                  <a href="#" class="btn btn-secondary">Do'kon Sotish</a>
+
+                  <div
+                    class="has-bg-image"
+                    style="
+                      background-image: url('./assets/images/banner-\(2\).png');
+                    "
+                  ></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURE
+      -->
+
+        <section class="section feature" aria-label="feature" data-section>
+          <div class="container">
+            <h2 class="h2-large section-title">Nima uchun porlab bilan xarid?</h2>
+
+            <ul class="flex-list">
+              <li class="flex-item">
+                <div class="feature-card">
+                  <img
+                    src="./assets/images/feature-1.jpg"
+                    width="204"
+                    height="236"
+                    loading="lazy"
+                    alt="Guaranteed PURE"
+                    class="card-icon"
+                  />
+
+                  <h3 class="h3 card-title">Kafolatlangan toza</h3>
+
+                  <p class="card-text">
+                    Barcha inoyat formulalari qat'iy poklik standartlariga rioya qiladi va
+                    hech qachon qattiq yoki toksik ingredientlarni o'z ichiga olmaydi
+                  </p>
+                </div>
+              </li>
+
+              <li class="flex-item">
+                <div class="feature-card">
+                  <img
+                    src="./assets/images/feature-2.jpg"
+                    width="204"
+                    height="236"
+                    loading="lazy"
+                    alt="Completely Cruelty-Free"
+                    class="card-icon"
+                  />
+
+                  <h3 class="h3 card-title">Mutlaqo Shafqatsizliksiz</h3>
+
+                  <p class="card-text">
+                    Barcha inoyat formulalari qat'iy poklik standartlariga rioya qiladi va
+                    hech qachon qattiq yoki toksik ingredientlarni o'z ichiga olmaydi
+                  </p>
+                </div>
+              </li>
+
+              <li class="flex-item">
+                <div class="feature-card">
+                  <img
+                    src="./assets/images/feature-3.jpg"
+                    width="204"
+                    height="236"
+                    loading="lazy"
+                    alt="Ingredient Sourcing"
+                    class="card-icon"
+                  />
+
+                  <h3 class="h3 card-title">Ingredient Manbalari</h3>
+
+                  <p class="card-text">
+                    Barcha inoyat formulalari qat'iy poklik standartlariga rioya qiladi va
+                    hech qachon qattiq yoki toksik ingredientlarni o'z ichiga olmaydi
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #OFFER
+      -->
+
+        <section
+          class="section offer"
+          id="offer"
+          aria-label="offer"
+          data-section
+        >
+          <div class="container">
+            <figure class="offer-banner">
+              <img
+                src="./assets/images/offer-banner.png"
+                width="305"
+                height="408"
+                loading="lazy"
+                alt="offer products"
+                class="w-100"
+              />
+
+              <img
+                src="./assets/images/offer-banner2.png"
+                width="450"
+                height="625"
+                loading="lazy"
+                alt="offer products"
+                class="w-100"
+              />
+            </figure>
+
+            <div class="offer-content">
+              <p class="offer-subtitle">
+                <span class="span">Maxsus Taklif</span>
+
+                <span class="badge" aria-label="20% off">-20%</span>
+              </p>
+
+              <h2 class="h2-large section-title">SKIN REVITALIZER <br>YUZ KREMI</h2>
+
+              <p class="section-text">
+                Toza, toksik bo'lmagan ingredientlardan foydalangan holda ishlab chiqarilgan mahsulotlarimiz
+                hamma uchun mo'ljallangan.
+              </p>
+
+              <div class="countdown">
+                <span class="time" aria-label="days">15</span>
+                <span class="time" aria-label="hours">21</span>
+                <span class="time" aria-label="minutes">46</span>
+                <span class="time" aria-label="seconds">08</span>
+              </div>
+
+              <a href="#" class="btn btn-primary">Faqat 350.000 so'm Oling</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #BLOG
+      -->
+
+        <section class="section blog" id="blog" aria-label="blog" data-section>
+          <div class="container">
+            <h2 class="h2-large section-title">Ko'proq kashf qilish</h2>
+
+            <ul class="flex-list">
+              <li class="flex-item">
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder has-before hover:shine"
+                    style="--width: 700; --height: 450"
+                  >
+                    <img
+                      src="./assets/images/Nivea_Rome.jpg"
+                      width="700"
+                      height="450"
+                      loading="lazy"
+                      alt="Find a Store"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Do'kon toping</a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Bizning Do'kon</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li class="flex-item">
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder has-before hover:shine"
+                    style="--width: 700; --height: 450"
+                  >
+                    <img
+                      src="./assets/images/Nivea_blog.jpg"
+                      width="700"
+                      height="450"
+                      loading="lazy"
+                      alt="From Our Blog"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Bizning Blogimizdan</a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Bizning Do'kon</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li class="flex-item">
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder has-before hover:shine"
+                    style="--width: 700; --height: 450"
+                  >
+                    <img
+                      src="./assets/images/Nivea_story.jpg"
+                      width="700"
+                      height="450"
+                      loading="lazy"
+                      alt="Our Story"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Bizning Hikoyamiz</a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Bizning Do'kon</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer" data-section>
+      <div class="container">
+        <div class="footer-top">
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Kompaniya</p>
+            </li>
+
+            <li>
+              <p class="footer-list-text">
+                Sizga eng yaqin joyni toping. Qarang
+                <a href="#" class="link">Bizning Do'konlar</a>
+              </p>
+            </li>
+            
+            <li>
+              <p class="footer-list-text bold">+998906643633
+                +998918700442
+              </p>
+            </li>
+
+            <li>
+              <p class="footer-list-text">qurambayevasurayyo@gmail.com
+                lobartadjibayeva@gmail.com
+              </p>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Foydali havolalar</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Yangi Mahsulotlar</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Eng Yaxshi Sotuvchilar</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">To'plam Va Saqlash</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Onlayn Sovg'a Kartasi</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Ma'lumot</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Qaytishni boshlang</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Aloqa</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Yuk tashish FAQ</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Shartlar Va Shartlar</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Maxfiylik Siyosati</a>
+            </li>
+          </ul>
+
+          <div class="footer-list">
+            <p class="newsletter-title">Yaxshi vergul.</p>
+
+            <p class="newsletter-text">
+              Yangi haqida bilish birinchi bo'lish uchun quyidagi elektron pochta kiriting
+            collections va mahsulot boshladi.
+            </p>
+
+            <form action="" class="newsletter-form">
+              <input
+                type="email"
+                name="email_address"
+                placeholder="Enter your email address"
+                required
+                class="email-field"
+              />
+
+              <button type="submit" class="btn btn-primary">Obuna</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="wrapper">
+            <p class="copyright">&copy; 2024</p>
+
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/Tamberry Glow.png"
+              width="179"
+              height="26"
+              loading="lazy"
+              alt="Glowing"
+            />
+          </a>
+
+          <img
+            src="./assets/images/pay.png"
+            width="313"
+            height="28"
+            alt="available all payment method"
+            class="w-100"
+          />
+        </div>
+      </div>
+    </footer>
+
+
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
